@@ -1,6 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 8%;
+  box-sizing: border-box;
+  background: rgba(10, 10, 10, 0.9);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.admin-link {
+  background: white;
+  color: black !important;
+  padding: 10px 16px;
+  border-radius: 20px;
+}
+
 .section {
   min-height: 100vh;
-  padding: 80px 10%;
+  padding: 120px 8%;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,6 +65,7 @@ h1 {
 
 h2 {
   font-size: 42px;
+  margin-bottom: 30px;
 }
 
 p {
@@ -25,8 +74,57 @@ p {
   line-height: 1.6;
 }
 
-a {
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+.project-card {
+  background: white;
+  color: black;
+  padding: 28px;
+  border-radius: 20px;
+}
+
+.project-card h3 {
+  font-size: 24px;
+}
+
+.project-card span {
+  display: block;
+  margin: 20px 0;
+  color: #555;
+}
+
+.project-card button,
+.admin-box button {
+  border: none;
+  background: #312e81;
   color: white;
-  margin-top: 20px;
-  font-size: 18px;
+  padding: 12px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.project-card button:hover,
+.admin-box button:hover {
+  background: #4338ca;
+}
+
+.admin-section {
+  background: #111827;
+}
+
+.admin-box {
+  background: white;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  max-width: 500px;
+}
+
+.admin-box button {
+  margin-right: 10px;
+  margin-top: 10px;
 }
