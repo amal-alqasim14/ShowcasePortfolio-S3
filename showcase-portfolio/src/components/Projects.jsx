@@ -1,13 +1,17 @@
 function Projects() {
   const projects = [
     {
-      title: "Project 1",
-      description: "Beschrijving van project",
+      title: "API Dashboard",
+      description: "Backend + database project",
+    },
+    {
+      title: "Portfolio",
+      description: "Mijn eigen website",
     },
   ];
 
   return (
-    <section className="section">
+    <section id="projects" className="section">
       <h2>Projecten</h2>
 
       <div className="project-grid">
