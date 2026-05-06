@@ -1,0 +1,32 @@
+.section {
+  min-height: 100vh;
+  padding: 80px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111827, #312e81);
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 42px;
+}
+
+p {
+  font-size: 20px;
+  max-width: 700px;
+  line-height: 1.6;
+}
+
+a {
+  color: white;
+  margin-top: 20px;
+  font-size: 18px;
+}
