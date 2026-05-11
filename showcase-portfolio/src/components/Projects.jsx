@@ -1,75 +1,31 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
+import { projects } from "../data/projects";
 
 function Projects() {
-  const [selectedProject, setSelectedProject] = useState(null);
-
-  const projects = [
-    {
-      title: "Medicijnhulp",
-      description: "Medicatieondersteuning voor patiënten en mantelzorgers",
-      details:
-        "Een zorgproject met website, mobiele app, game en Arduino-medicatiedoos.",
-      learned:
-        "Ik heb geleerd hoe belangrijk gebruiksvriendelijkheid is voor kwetsbare doelgroepen.",
-      link: "https://jouw-project-link.nl",
-    },
-    {
-      title: "Digital Paradise",
-      description: "Branding voor DJ & producer",
-      details:
-        "Een volledige visuele identiteit inclusief EPK en social media design.",
-      learned:
-        "Ik heb geleerd hoe je een sterk merk visueel opbouwt.",
-      link: "https://jouw-project-link.nl",
-    },
-    {
-      title: "CZ Zorgvinder",
-      description: "UX design voor mentale zorg",
-      details:
-        "Onderzoek en ontwerp om toegang tot mentale zorg te verbeteren.",
-      learned:
-        "Ik heb geleerd hoe belangrijk onderzoek is binnen UX design.",
-      link: "https://jouw-project-link.nl",
-    },
-  ];
   return (
-    <section id="projects" className="section">
+    <section id="projects" className="section projects-section">
+      <p className="label">Mijn werk</p>
       <h2>Projecten</h2>
 
       <div className="project-grid">
-        {projects.map((p, i) => (
-          <div className="project-card" key={i}>
-            <h3>{p.title}</h3>
-            <p>{p.description}</p>
+        {projects.map((project) => (
+          <div className="project-card" key={project.slug}>
+            <p className="project-category">{project.category}</p>
+            <h3>{project.title}</h3>
+            <p>{project.subtitle}</p>
 
-            <button onClick={() => setSelectedProject(p)}>
+            <div className="tech-list">
+              {project.tech.slice(0, 3).map((tech) => (
+                <span key={tech}>{tech}</span>
+              ))}
+            </div>
+
+            <Link to={`/project/${project.slug}`} className="card-btn">
               Kijk meer
-            </button>
+            </Link>
           </div>
         ))}
       </div>
-
-      {/* DIT IS DE MODAL */}
-      {selectedProject && (
-        <div className="modal">
-          <div className="modal-content">
-            <h2>{selectedProject.title}</h2>
-
-            <p>{selectedProject.details}</p>
-
-            <h4>Wat heb ik geleerd?</h4>
-            <p>{selectedProject.learned}</p>
-
-            <a href={selectedProject.link} target="_blank" rel="noreferrer">
-              <button className="visit-btn">Bekijk project</button>
-            </a>
-
-            <button onClick={() => setSelectedProject(null)}>
-              Sluiten
-            </button>
-          </div>
-        </div>
-      )}
     </section>
   );
 }

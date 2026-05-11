@@ -299,3 +299,156 @@ p {
   max-width: 600px;
   width: 90%;
 }
+
+/* detailpage   */
+.project-detail-page {
+  min-height: 100vh;
+  background: #020617;
+  color: white;
+}
+
+.project-detail-hero {
+  min-height: 90vh;
+  padding: 150px 8% 90px;
+  display: grid;
+  grid-template-columns: 1.4fr 0.8fr;
+  align-items: center;
+  gap: 50px;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.5), transparent 35%),
+    radial-gradient(circle at 85% 35%, rgba(16, 185, 129, 0.25), transparent 30%),
+    linear-gradient(135deg, #020617, #0f172a);
+}
+
+.project-hero-text h1 {
+  font-size: clamp(54px, 8vw, 110px);
+  line-height: 0.9;
+  letter-spacing: -5px;
+  margin: 0 0 28px;
+}
+
+.project-hero-text p {
+  max-width: 760px;
+  color: #cbd5e1;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+.project-detail-buttons {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-top: 34px;
+}
+
+.project-hero-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(18px);
+  border-radius: 34px;
+  padding: 34px;
+  box-shadow: 0 35px 100px rgba(0, 0, 0, 0.35);
+}
+
+.project-hero-card h3 {
+  font-size: 28px;
+  margin: 0 0 14px;
+}
+
+.project-hero-card p {
+  color: #cbd5e1;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.project-detail-content {
+  padding: 80px 8% 130px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+  background: #f8fafc;
+}
+
+.detail-card {
+  position: relative;
+  overflow: hidden;
+  background: white;
+  color: #020617;
+  border: 1px solid #e2e8f0;
+  border-radius: 34px;
+  padding: 38px;
+  box-shadow: 0 25px 80px rgba(15, 23, 42, 0.1);
+  transition: 0.3s ease;
+}
+
+.detail-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 35px 110px rgba(15, 23, 42, 0.16);
+}
+
+.detail-card.large {
+  grid-column: span 2;
+}
+
+.card-number {
+  display: inline-block;
+  margin-bottom: 18px;
+  color: #6366f1;
+  font-weight: 900;
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.detail-card h2 {
+  font-size: 34px;
+  margin: 0 0 18px;
+  letter-spacing: -1px;
+}
+
+.detail-card p,
+.detail-card li {
+  color: #475569;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.task-list {
+  padding-left: 0;
+  list-style: none;
+  display: grid;
+  gap: 14px;
+}
+
+.task-list li {
+  background: #f1f5f9;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border-left: 4px solid #6366f1;
+}
+
+.reflection-card {
+  background:
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.16), transparent 35%),
+    white;
+}
+
+@media (max-width: 900px) {
+  .project-detail-hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 110px 6% 70px;
+  }
+
+  .project-detail-content {
+    grid-template-columns: 1fr;
+    padding: 60px 6% 100px;
+  }
+
+  .detail-card.large {
+    grid-column: span 1;
+  }
+
+  .project-hero-text h1 {
+    letter-spacing: -3px;
+  }
+}

@@ -8,6 +8,7 @@ function Admin() {
   const login = () => {
     if (password === "admin123") {
       setIsAdmin(true);
+      setPassword("");
     } else {
       alert("Fout wachtwoord");
     }
@@ -16,13 +17,14 @@ function Admin() {
   return (
     <main className="admin-page">
       <Link to="/" className="back-link">
-        Terug naar portfolio
+        ← Terug naar portfolio
       </Link>
 
       <div className="admin-card">
         {!isAdmin ? (
           <>
-            <h1>Aanmelden als Admin</h1>
+            <p className="label dark-label">Admin</p>
+            <h1>Aanmelden</h1>
             <p>Vul het wachtwoord in om projecten te beheren.</p>
 
             <input
@@ -36,16 +38,16 @@ function Admin() {
           </>
         ) : (
           <>
-            <h1>Admin overzicht</h1>
+            <p className="label dark-label">Dashboard</p>
+            <h1>Projectbeheer</h1>
             <p>Je bent ingelogd als admin.</p>
 
-            <button>Project toevoegen</button>
-            <button>Project aanpassen</button>
-            <button>Project verwijderen</button>
-
-            <button onClick={() => setIsAdmin(false)}>
-              Uitloggen
-            </button>
+            <div className="admin-actions">
+              <button>Project toevoegen</button>
+              <button>Project aanpassen</button>
+              <button>Project verwijderen</button>
+              <button onClick={() => setIsAdmin(false)}>Uitloggen</button>
+            </div>
           </>
         )}
       </div>
