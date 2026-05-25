@@ -5,9 +5,9 @@ export const projects = [
     subtitle: "Medicatieondersteuning voor patiënten en mantelzorgers",
     category: "React Native / Zorg / UX",
     description:
-      "Medicijnhulp is een zorggericht project dat gebruikers helpt om medicatie op tijd en op de juiste manier in te nemen.",
+      "Een zorggericht project dat gebruikers helpt hun medicatie op tijd in te nemen via een website, mobiele app, motivatiegame en een slimme Arduino-medicatiedoos.",
     role:
-      "Mijn bijdrage lag vooral bij het ontwerpen en ontwikkelen van de mobiele applicatie voor mantelzorgers.",
+      "Ik was verantwoordelijk voor het ontwerpen en ontwikkelen van de mobiele applicatie voor mantelzorgers met React Native en Expo. Daarnaast werkte ik aan wireframes, systeemintegratie en de koppeling tussen de app, website en Unity-game.",
     tech: ["React Native", "Expo", "UX/UI", "Arduino", "Unity", "Netlify"],
     tasks: [
       "Doelgroepanalyse uitgevoerd",
@@ -18,7 +18,8 @@ export const projects = [
       "Koppeling tussen website, app en game uitgewerkt",
     ],
     learned:
-      "Ik heb geleerd hoe belangrijk gebruiksvriendelijkheid en betrouwbaarheid zijn bij zorggerichte digitale oplossingen.",
+      "Ik heb veel geleerd over mobiele development, UX-design, wireframes en samenwerken binnen een multidisciplinair team.",
+    Reflect: "Dit project heeft mij geleerd om flexibel te blijven wanneer een project verandert en om altijd vanuit de gebruiker te denken bij het ontwerpen van oplossingen.",
     liveLink: "#",
   },
   {
@@ -30,7 +31,7 @@ export const projects = [
       "Voor dit project werkten we aan de visuele identiteit van Digital Paradise, het artiestenproject van Eldrick Alvarado.",
     role:
       "Mijn focus lag vooral op het ontwerpen van de Electronic Press Kit en de Technical & Hospitality Rider.",
-    tech: ["Branding", "EPK", "Typography", "Social Media", "Visual Design"],
+    tech: ["Branding","EPK", "Typography", "Social Media", "Visual Design"],
     tasks: [
       "Electronic Press Kit ontworpen",
       "Technical & Hospitality Rider ontworpen",
@@ -39,7 +40,8 @@ export const projects = [
     ],
     learned:
       "Ik heb geleerd hoe visuele consistentie helpt om een artiest professioneel en herkenbaar te presenteren.",
-    liveLink: "#",
+    liveLink: "https://brandingdigitalparadise.vercel.app/"  
+    
   },
   {
     slug: "cz-zorgvinder",
@@ -61,6 +63,6 @@ export const projects = [
     ],
     learned:
       "Ik heb geleerd dat goed UX-design begint met onderzoek en begrip van echte gebruikersproblemen.",
-    liveLink: "#",
+    liveLink: "https://cz-project.vercel.app/",
   },
 ];

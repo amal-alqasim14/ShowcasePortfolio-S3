@@ -73,8 +73,8 @@ body {
 
 .hero {
   background:
-    radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.45), transparent 35%),
-    radial-gradient(circle at 80% 30%, rgba(16, 185, 129, 0.25), transparent 35%),
+    radial-gradient(circle at 20% 20%, rgba(179, 99, 241, 0.45), transparent 35%),
+    radial-gradient(circle at 80% 30%, rgba(185, 16, 89, 0.25), transparent 35%),
     linear-gradient(135deg, #020617, #111827);
 }
 
@@ -109,6 +109,9 @@ p {
   font-size: 20px;
   line-height: 1.7;
   color: #cbd5e1;
+}
+a {
+  text-decoration: none;
 }
 
 #about {
@@ -171,6 +174,12 @@ p {
 .project-card button:hover {
   background: #3730a3;
   transform: scale(1.04);
+}
+
+.tech-list {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 #contact {
