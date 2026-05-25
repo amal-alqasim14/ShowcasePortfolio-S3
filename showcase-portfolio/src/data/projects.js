@@ -52,7 +52,7 @@ export const projects = [
       "Voor CZ Zorgverzekeraar werkte ik mee aan een UX-vraagstuk rond betere toegang tot mentale gezondheidszorg.",
     role:
       "Ik heb bijgedragen aan onderzoek, conceptontwikkeling, wireframes, documentatie en prototype.",
-    tech: ["UX Research", "Wireframes", "Prototype", "User Testing", "README"],
+    tech: ["UX-Research", "Wireframes", "Prototype", "User Testing", "README"],
     tasks: [
       "Projectplan opgesteld",
       "Contact gelegd met externe partijen",
