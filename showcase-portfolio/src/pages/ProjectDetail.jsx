@@ -1,7 +1,15 @@
 import { Link, useParams } from "react-router-dom";
 import { projects } from "../data/projects";
+import { useEffect } from "react";
 
 function ProjectDetail() {
+  useEffect(() => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+}, []);
+
   const { slug } = useParams();
   const project = projects.find((item) => item.slug === slug);
 
