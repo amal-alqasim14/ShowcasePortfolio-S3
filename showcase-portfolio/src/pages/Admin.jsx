@@ -25,7 +25,7 @@ function Admin() {
           <>
             <p className="label dark-label">Admin</p>
             <h1>Aanmelden</h1>
-            <p>Vul het wachtwoord in om projecten te beheren.</p>
+            <p>Vul het wachtwoord "admin123" in om projecten te beheren.</p>
 
             <input
               type="password"
