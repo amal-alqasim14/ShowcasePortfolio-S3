@@ -111,6 +111,7 @@ p {
   line-height: 1.7;
   color: #cbd5e1;
 }
+
 a {
   text-decoration: none;
 }
@@ -142,6 +143,9 @@ a {
   box-shadow: 0 25px 70px rgba(15, 23, 42, 0.12);
   border: 1px solid #e2e8f0;
   transition: 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  min-height: 430px;
 }
 
 .project-card:hover {
@@ -154,14 +158,18 @@ a {
   margin-bottom: 14px;
 }
 
+.project-card p {
+  line-height: 1.7;
+}
+
 .project-card span {
   display: inline-block;
-  margin: 18px 0;
   color: #4f46e5;
   font-weight: 700;
 }
 
-.project-card button {
+.project-card button,
+.card-btn {
   border: none;
   background: #4f46e5;
   color: white;
@@ -170,9 +178,13 @@ a {
   font-weight: 700;
   cursor: pointer;
   transition: 0.25s ease;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 
-.project-card button:hover {
+.project-card button:hover,
+.card-btn:hover {
   background: #3730a3;
   transform: scale(1.04);
 }
@@ -181,6 +193,8 @@ a {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: auto;
+  margin-bottom: 24px;
 }
 
 #contact {
