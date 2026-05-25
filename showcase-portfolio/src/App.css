@@ -194,6 +194,13 @@ a {
   max-width: 650px;
 }
 
+.contact-buttons {
+  display: flex;
+  gap: 18px;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+
 /* Admin page */
 
 .admin-page {
@@ -259,6 +266,17 @@ a {
   color: white;
   text-decoration: none;
   font-weight: 700;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 16px 24px;
+
+  border-radius: 18px;
+
+  font-weight: 700;
+
+  transition: 0.25s ease;
 }
 
 /* Responsive */
