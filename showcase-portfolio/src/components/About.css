@@ -1,0 +1,27 @@
+.about-intro {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 60px;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.about-image img {
+  width: 320px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 40px;
+  border: 4px solid rgba(241, 99, 99, 0.4);
+  box-shadow: 0 30px 90px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 900px) {
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about-image img {
+    width: 260px;
+    height: 260px;
+  }
+}
