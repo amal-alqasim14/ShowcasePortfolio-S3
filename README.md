@@ -7,6 +7,7 @@ Het doel van het project is om een professionele portfolio-website te ontwikkele
 ## Application Domain
 De belangrijkste doelgroep van mijn portfolio bestaat uit docenten, stagebedrijven en werkgevers. Gepasseerd op de canvas opdracht zij willen snel inzicht krijgen in mijn vaardigheden, projecten en persoonlijke ontwikkeling.
 Om beter te begrijpen wat belangrijk is binnen een portfolio heb ik onderzocht welke informatie vaak wordt verwacht door deze doelgroep. 
+
 Hieruit bleek dat een portfolio niet alleen projecten moet tonen, maar ook inzicht moet geven in de rol van de developer of desiner, de gebruikte technieken en de leerervaringen die tijdens projecten zijn opgedaan.
 
 ## Available Work Domain
@@ -28,6 +29,7 @@ Op basis van de verzamelde inzichten heb ik een portfolio ontwikkeld met een mod
 Een belangrijk onderdeel van mijn portfolio zijn de projectdetailpagina's. Hierin beschrijf ik niet alleen het eindresultaat van een project, maar ook mijn rol, werkzaamheden en reflecties.
 
 Daarnaast heb ik een adminpagina ontwikkeld. Dit is een extra functionaliteit waarmee projecten in de toekomst beheerd kunnen worden via de website zelf, zonder dat hiervoor direct aanpassingen in de code nodig zijn. Deze functionaliteit maakt het portfolio eenvoudiger te onderhouden en verder uit te breiden.
+
 Deze onderdelen vormen samen de innovatie binnen het project en zorgen voor een portfolio dat niet alleen projecten toont, maar ook mijn leerproces en professionele groei zichtbaar maakt.
 
 ## Relevantie (Fit)
@@ -35,6 +37,7 @@ Het onderzoek was gericht op het ontwikkelen van een portfolio dat aansluit bij 
 
 ## Expertise
 Tijdens het project heb ik gebruikgemaakt van bestaande kennis over React, UX/UI en responsive webdesign. Daarnaast heb ik onderzoek gedaan naar moderne portfolio-websites en ontwerpprincipes.
+
 Deze kennis heeft geholpen bij het maken van keuzes die bijdragen aan een professionele uitstraling en een goede gebruikerservaring.
 
 ## Onderzoeksmethoden
@@ -47,6 +50,7 @@ Deze inzichten vormden de basis voor mijn eigen ontwerp.
 Na het verzamelen van inspiratie ben ik begonnen met het uitwerken van mijn eigen portfolio.
 Eerst heb ik alle projecten verzameld die ik tijdens mijn studie heb uitgevoerd. Vervolgens heb ik drie projecten geselecteerd die het beste mijn vaardigheden en ontwikkeling laten zien.
 Daarna heb ik gereflecteerd op elk project. Ik heb beschreven wat mijn rol was, welke werkzaamheden ik heb uitgevoerd, wat ik heb geleerd en welke uitdagingen ik ben tegengekomen. 
+
 Op basis van deze informatie heb ik de structuur van de projectpagina's ontworpen.
 
 ### Lab Research
@@ -72,9 +76,13 @@ Het eindresultaat presenteert mijn projecten, vaardigheden en persoonlijke ontwi
 ## Bronnen 
 Lynn Fisher
 Winning websites. Web Design Inspiration - Awwwards
+
 https://www.hostinger.com/nl/tutorials/portfolio-voorbeeld
+
 https://reallygooddesigns.com/unique-portfolio-websites
+
 https://alvarotrigo.com/blog/web-developer-portfolio-examples/
+
 https://github.com/topics/react-portfolio
 
 
