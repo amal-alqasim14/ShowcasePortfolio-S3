@@ -25,7 +25,8 @@ Op basis van de verzamelde inzichten heb ik een portfolio ontwikkeld met een mod
 •	Contactsectie
 •	Adminpagina
 
-Een belangrijk onderdeel van mijn portfolio zijn de projectdetailpagina's. Hierin beschrijf ik niet alleen het eindresultaat van een project, maar ook mijn rol, werkzaamheden en reflecties. 
+Een belangrijk onderdeel van mijn portfolio zijn de projectdetailpagina's. Hierin beschrijf ik niet alleen het eindresultaat van een project, maar ook mijn rol, werkzaamheden en reflecties.
+
 Daarnaast heb ik een adminpagina ontwikkeld. Dit is een extra functionaliteit waarmee projecten in de toekomst beheerd kunnen worden via de website zelf, zonder dat hiervoor direct aanpassingen in de code nodig zijn. Deze functionaliteit maakt het portfolio eenvoudiger te onderhouden en verder uit te breiden.
 Deze onderdelen vormen samen de innovatie binnen het project en zorgen voor een portfolio dat niet alleen projecten toont, maar ook mijn leerproces en professionele groei zichtbaar maakt.
 
